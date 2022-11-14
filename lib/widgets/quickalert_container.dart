@@ -104,6 +104,7 @@ class QuickAlertContainer extends StatelessWidget {
         style: Theme.of(context).textTheme.headline6!.copyWith(
               color: options!.titleColor,
             ),
+        textAlign: TextAlign.center,
       ),
     );
   }
